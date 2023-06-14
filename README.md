@@ -1,6 +1,7 @@
 # timm vit visualization
 
 - [timm](https://github.com/huggingface/pytorch-image-models)
+- use pytorch register_forward_hook
 
 ## vit_small_patch16_384
 
@@ -9,6 +10,7 @@ juypiter notebook: [vit_small_patch16_384.ipynb](vit_small_patch16_384.ipynb)
 - patch_size: 16
 - attention head: 6
 - image_size: 384
+- embed_dim: 384
 
 ![vit](img/vit_attn.png)
 ![vit](img/vit_attn_head.png)
@@ -17,9 +19,10 @@ juypiter notebook: [vit_small_patch16_384.ipynb](vit_small_patch16_384.ipynb)
 
 juypiter notebook: [vit_small_patch14_dinov2.ipynb](vit_small_patch14_dinov2.ipynb)
 
-- patch_size: 16
+- patch_size: 14
 - attention head: 6
-- image_size: 384
+- image_size: 518
+- embed_dim: 384
 
 ![vit](img/vit_dinov2_attn.png)
 ![vit](img/vit_dinov2_attn_head.png)
