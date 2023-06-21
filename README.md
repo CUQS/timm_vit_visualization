@@ -1,5 +1,6 @@
 # timm vit visualization
 
+## requirements
 - [timm](https://github.com/huggingface/pytorch-image-models)
 - timm vision transformer: [VisionTransformer](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vision_transformer.py)
 - use pytorch register_forward_hook
@@ -28,7 +29,7 @@ juypiter notebook: [vit_small_patch14_dinov2.ipynb](vit_small_patch14_dinov2.ipy
 ![vit](img/vit_dinov2_attn.png)
 ![vit](img/vit_dinov2_attn_head.png)
 
-# Reference
+## Reference
 
 timm: https://github.com/huggingface/pytorch-image-models
 
@@ -41,3 +42,17 @@ dinov2: https://github.com/facebookresearch/dinov2
 visualization (plot_attention): https://mp.weixin.qq.com/s/lW20p0RnfyejqnNc4_vMBQ
 
 json_dumps_util.py: https://gist.github.com/jannismain/e96666ca4f059c3e5bc28abb711b5c92
+
+# DETR decoder attention visualization
+
+- [DETR](https://github.com/facebookresearch/detr)
+
+## cross-attention of last decoder layer
+
+- jupyter notebook: [detr_visulaization_demo.ipynb](detr_visulaization_demo.ipynb)
+
+![detr](img/detr_dec_attn.png)
+
+## Reference
+
+- DETR: https://github.com/facebookresearch/detr
