@@ -51,7 +51,7 @@ json_dumps_util.py: https://gist.github.com/jannismain/e96666ca4f059c3e5bc28abb7
 
 - jupyter notebook: [detr_visulaization_demo.ipynb](detr_visulaization_demo.ipynb)
 
-![detr](img/detr_dec_attn.png)
+![detr](img/detr_attn.png)
 
 ## Reference
 
